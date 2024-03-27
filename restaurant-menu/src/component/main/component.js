@@ -6,49 +6,8 @@ export default function ComponentFunction() {
       image: (
         <img src={Img1} className="img" />
       )
-    },
-    {
-      id: 2, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
-    },
-    {
-      id: 3, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
-    },
-    {
-      id: 4, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
-    },
-    {
-      id: 5, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
-    },
-    {
-      id: 6, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
-    },
-    {
-      id: 7, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
-    },
-    {
-      id: 8, title: "Caffe Latte", price: "$2.95",
-      image: (
-        <img src={Img1} className="img" />
-      )
     }
+ 
 
 
   ]

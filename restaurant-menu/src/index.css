@@ -117,25 +117,27 @@ section {
     padding: 10px 0;
   }
 
-  
+
   .main_section_div {
     padding: 0 25px 100px;
   }
-  
+
 }
+
 @media screen and (min-width:768px) {
   .last_text {
     font-size: 16px;
   }
-  
+
   .rtl {
     width: 20%;
   }
-  
+
   .discreption_div {
     width: 100%;
     display: flex;
   }
+
   .price_and_border {
     margin-top: 5px;
   }
@@ -155,7 +157,7 @@ section {
     margin-left: 10px;
   }
 
- 
+
   .parent_card_detalis {
     display: flex;
     padding: 10px 0;
@@ -164,7 +166,6 @@ section {
   .main_section_div {
     padding: 0 30px 150px;
   }
-
 
 }
 
@@ -201,5 +202,5 @@ section {
 }
 
 div::selection {
-  background-color: red;
+  background-color: #d72151;
 }
