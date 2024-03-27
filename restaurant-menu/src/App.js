@@ -1,5 +1,4 @@
 import './component/header/header.css'
-import './App.css';
 import Headerfunction from './component/header/header';
 import ComponentFunction from './component/main/component';
 

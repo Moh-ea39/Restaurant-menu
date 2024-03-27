@@ -37,9 +37,11 @@ section {
 }
 
 .img {
-  object-fit: cover;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 100%;
+  cursor: pointer;
+  height: auto;
+  object-fit: contain;
+  min-width: 80px;
 }
 
 .title_text {
@@ -104,11 +106,6 @@ section {
     border-width: 0px 25px;
   }
 
-  .discreption_div {
-    width: 100%;
-    display: flex;
-  }
-
   .first_details {
     display: inline-flex;
     width: 100%;
@@ -120,17 +117,55 @@ section {
     padding: 10px 0;
   }
 
+  
+  .main_section_div {
+    padding: 0 25px 100px;
+  }
+  
+}
+@media screen and (min-width:768px) {
+  .last_text {
+    font-size: 16px;
+  }
+  
+  .rtl {
+    width: 20%;
+  }
+  
+  .discreption_div {
+    width: 100%;
+    display: flex;
+  }
   .price_and_border {
     margin-top: 5px;
   }
 
-  .rtl {
-    width: 20%;
+}
+
+@media screen and (min-width:1024px) {
+  .parent_card {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+  }
+
+  .first_details {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+ 
+  .parent_card_detalis {
+    display: flex;
+    padding: 10px 0;
   }
 
   .main_section_div {
-    padding: 0 25px 100px;
+    padding: 0 30px 150px;
   }
+
+
 }
 
 @media screen and (max-width:767px) {
@@ -159,36 +194,12 @@ section {
   .border_between2 {
     display: none;
   }
-}
-@media screen and (min-width:1024px) {
-  .parent_card{
-    grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-  }
-  .first_details {
-    display: inline-flex;
-    width: 100%;
-    flex-direction: column;
-    margin-left: 10px;
-  }
+
   .discreption_div {
-    width: 100%;
-    display: flex;
-  }
-  .price_and_border {
-    margin-top: 5px;
-  }
-  .parent_card_detalis {
-    display: flex;
-    padding: 10px 0;
-  }
-  .main_section_div{
-    padding: 0 30px 150px;
-  }
-  .last_text{
-    font-size: 16px   ;
+    padding: 20px 0 15px;
   }
 }
-div::selection{
+
+div::selection {
   background-color: red;
 }
